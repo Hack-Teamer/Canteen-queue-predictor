@@ -1,0 +1,21 @@
+# Vision Service Configuration
+video_source: "0"  # Camera index 0, or rtsp://..., or path to .mp4
+zone_id: "canteen_queue_zone"
+
+# Queue boundary polygon in frame coordinates (x, y)
+polygon:
+  - [150, 200]
+  - [480, 200]
+  - [520, 460]
+  - [100, 460]
+
+# Backend ingestion API
+backend:
+  api_url: "http://api:8000"
+  api_key: "vision-secret-api-key-2024"
+
+# Timings in seconds
+intervals:
+  detection_interval_sec: 1.0
+  publish_interval_sec: 3.0
+  smoothing_window: 5

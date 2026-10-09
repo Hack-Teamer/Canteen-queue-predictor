@@ -1,0 +1,41 @@
+{
+  "active_version": "v_20261009_073454",
+  "history": [
+    "v_20261009_073454"
+  ],
+  "versions": {
+    "v_20261009_073454": {
+      "path": "ml_models\\v_20261009_073454\\model_bundle.joblib",
+      "metrics": {
+        "mae": 2.81,
+        "rmse": 4.109,
+        "coverage_80": 0.63,
+        "q10_pinball_loss": 0.433,
+        "q50_pinball_loss": 1.405,
+        "q90_pinball_loss": 0.957,
+        "sample_count": 100,
+        "baseline_mae": 5.505,
+        "improvement_vs_baseline_percent": 48.95
+      },
+      "feature_importances": {
+        "items_ahead_tea": 26.0,
+        "items_ahead_tawa": 44.0,
+        "items_ahead_fryer": 17.0,
+        "minutes_ahead_tea": 385.0,
+        "minutes_ahead_tawa": 342.0,
+        "minutes_ahead_fryer": 203.0,
+        "items_in_this_order": 133.0,
+        "people_in_zone": 138.0,
+        "estimated_walk_ins": 104.0,
+        "hour": 116.0,
+        "day_of_week": 42.0,
+        "minutes_since_last_bell": 217.0,
+        "is_break": 13.0,
+        "cooks_tea": 0.0,
+        "cooks_tawa": 0.0,
+        "cooks_fryer": 0.0
+      },
+      "created_at": "100"
+    }
+  }
+}
